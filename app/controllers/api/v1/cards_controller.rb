@@ -31,7 +31,7 @@ class Api::V1::CardsController < ApplicationController
     else
       render json: @card.errors, status: :unprocessable_entity
     end
-  end
+  end 
 
   # DELETE /cards/1
   def destroy
